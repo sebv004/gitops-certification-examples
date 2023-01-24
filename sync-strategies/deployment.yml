@@ -8,12 +8,12 @@ spec:
   selector:
     matchLabels:
       app: trivial-go-web-app
-      lab1: more labels
+      lab1: more-labels
   template:
     metadata:
       labels:
         app: trivial-go-web-app
-        lab1: more labels
+        lab1: more-labels
     spec:
       containers:
       - name: webserver-simple
