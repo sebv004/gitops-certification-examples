@@ -8,6 +8,7 @@ spec:
   selector:
     matchLabels:
       app: trivial-go-web-app
+      lab1: more labels
   template:
     metadata:
       labels:
