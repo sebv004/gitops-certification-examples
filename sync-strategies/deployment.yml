@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: trivial-go-web-app
+        lab1: more labels
     spec:
       containers:
       - name: webserver-simple
